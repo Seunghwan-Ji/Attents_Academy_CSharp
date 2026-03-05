@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_DataType", "DataType\01_DataType.csproj", "{43E94322-E356-49AE-97BD-73F18CEDEEB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_DataType", "01_DataType\01_DataType.csproj", "{43E94322-E356-49AE-97BD-73F18CEDEEB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Variable", "Variable\02_Variable.csproj", "{8313BA55-B15C-4B11-BF44-ABF024F55592}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Variable", "02_Variable\02_Variable.csproj", "{8313BA55-B15C-4B11-BF44-ABF024F55592}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_VariableRule", "VariableRule\03_VariableRule.csproj", "{DB686391-7D5E-492C-97F9-7918140D8164}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_VariableRule", "03_VariableRule\03_VariableRule.csproj", "{DB686391-7D5E-492C-97F9-7918140D8164}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Operator", "04_Operator\04_Operator.csproj", "{C5215884-FAC6-42B8-B178-E6469AC3A18C}"
 EndProject
@@ -163,55 +163,55 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "58_Polymorphism_CoffeeShop"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59_VirtualFunction", "59_VirtualFunction\59_VirtualFunction.csproj", "{4DE473D0-5E80-4212-B056-02D2E47AB018}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "72_Collections_Queue_Exer", "72_Collections_Queue_Exer\72_Collections_Queue_Exer.csproj", "{1E40078C-3F6A-4691-A97F-B75D93A23F8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "73_Collections_Queue_Exer", "72_Collections_Queue_Exer\73_Collections_Queue_Exer.csproj", "{1E40078C-3F6A-4691-A97F-B75D93A23F8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "73_Collections_Stack_Exer", "73_Collections_Stack_Exer\73_Collections_Stack_Exer.csproj", "{DC432FB6-6280-4A05-8842-53BEFD6929E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "74_Collections_Stack_Exer", "73_Collections_Stack_Exer\74_Collections_Stack_Exer.csproj", "{DC432FB6-6280-4A05-8842-53BEFD6929E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "74_Generic_Collection_Exer", "74_Generic_Collection_Exer\74_Generic_Collection_Exer.csproj", "{7A13E813-9F92-44A7-95A1-D3F8E8DC9D4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "75_Generic_Collection_Exer", "74_Generic_Collection_Exer\75_Generic_Collection_Exer.csproj", "{7A13E813-9F92-44A7-95A1-D3F8E8DC9D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "75_IEnumerator_IEnumerable", "75_IEnumerator_IEnumerable\75_IEnumerator_IEnumerable.csproj", "{802B0964-F587-44E2-8B39-BF711C8581C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "76_IEnumerator_IEnumerable", "75_IEnumerator_IEnumerable\76_IEnumerator_IEnumerable.csproj", "{802B0964-F587-44E2-8B39-BF711C8581C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "76_Generic_LinkedList", "76_Generic_LinkedList\76_Generic_LinkedList.csproj", "{E712C66D-B128-45BD-9452-581D73097558}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "77_Generic_LinkedList", "76_Generic_LinkedList\77_Generic_LinkedList.csproj", "{E712C66D-B128-45BD-9452-581D73097558}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "77_GenericCollections_List", "77_GenericCollections_List\77_GenericCollections_List.csproj", "{BB18F549-D688-457D-BAFE-7CC15E80CCEF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "78_GenericCollections_List", "77_GenericCollections_List\78_GenericCollections_List.csproj", "{BB18F549-D688-457D-BAFE-7CC15E80CCEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "78_GenericCollections_Stack", "78_GenericCollections_Stack\78_GenericCollections_Stack.csproj", "{ADCF745C-696E-475C-B929-05F76028A3EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "79_GenericCollections_Stack", "78_GenericCollections_Stack\79_GenericCollections_Stack.csproj", "{ADCF745C-696E-475C-B929-05F76028A3EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "78_GenericCollections_Stack_01", "78_GenericCollections_Stack_01\78_GenericCollections_Stack_01.csproj", "{B6356EA9-9148-4206-B1BA-729E067DA465}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "79_GenericCollections_Stack_01", "78_GenericCollections_Stack_01\79_GenericCollections_Stack_01.csproj", "{B6356EA9-9148-4206-B1BA-729E067DA465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "79_GenericCollections_Queue", "79_GenericCollections_Queue\79_GenericCollections_Queue.csproj", "{46F1C29C-D64C-4DDC-B704-FC6BB5535FEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "80_GenericCollections_Queue", "79_GenericCollections_Queue\80_GenericCollections_Queue.csproj", "{46F1C29C-D64C-4DDC-B704-FC6BB5535FEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "80_GenericCollections_Dictionary", "80_GenericCollections_Dictionary\80_GenericCollections_Dictionary.csproj", "{A8C17E91-1EB0-47A2-8DCA-CDCEB4F9E239}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "81_GenericCollections_Dictionary", "80_GenericCollections_Dictionary\81_GenericCollections_Dictionary.csproj", "{A8C17E91-1EB0-47A2-8DCA-CDCEB4F9E239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "81_LINQ", "81_LINQ\81_LINQ.csproj", "{CC02A9CC-CAF3-4CD5-8078-D97D9ABC6D84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_LINQ", "81_LINQ\82_LINQ.csproj", "{CC02A9CC-CAF3-4CD5-8078-D97D9ABC6D84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "81_LINQ_01", "81_LINQ_01\81_LINQ_01.csproj", "{AE47CF07-698B-4948-998F-1B5D2DD80F99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_LINQ_01", "81_LINQ_01\82_LINQ_01.csproj", "{AE47CF07-698B-4948-998F-1B5D2DD80F99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "81_LINQ_02", "81_LINQ_02\81_LINQ_02.csproj", "{F4DD1FB5-3A98-47ED-93AE-1CFBE6607490}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_LINQ_02", "81_LINQ_02\82_LINQ_02.csproj", "{F4DD1FB5-3A98-47ED-93AE-1CFBE6607490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "81_LINQ_03", "81_LINQ_03\81_LINQ_03.csproj", "{0565A29C-4B1F-495F-B621-D439815A0330}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_LINQ_03", "81_LINQ_03\82_LINQ_03.csproj", "{0565A29C-4B1F-495F-B621-D439815A0330}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "81_LINQ_04", "81_LINQ_04\81_LINQ_04.csproj", "{F3F2D025-8B23-4498-8142-A9878C80996B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_LINQ_04", "81_LINQ_04\82_LINQ_04.csproj", "{F3F2D025-8B23-4498-8142-A9878C80996B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "81_LINQ_05", "81_LINQ_05\81_LINQ_05.csproj", "{843CC213-E060-417F-A72B-E3189B0533FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_LINQ_05", "81_LINQ_05\82_LINQ_05.csproj", "{843CC213-E060-417F-A72B-E3189B0533FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "81_LINQ_06", "81_LINQ_06\81_LINQ_06.csproj", "{3F491F48-6DC8-4B9F-93A0-9C385A4F719D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_LINQ_06", "81_LINQ_06\82_LINQ_06.csproj", "{3F491F48-6DC8-4B9F-93A0-9C385A4F719D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "82_LINQ_Exer", "82_LINQ_Exer\82_LINQ_Exer.csproj", "{104913B0-D178-4256-A904-BEECD8A2D3D9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83_LINQ_Exer", "82_LINQ_Exer\83_LINQ_Exer.csproj", "{104913B0-D178-4256-A904-BEECD8A2D3D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83_LINQ_GROUP_DESC", "83_LINQ_GROUP_DESC\83_LINQ_GROUP_DESC.csproj", "{C9EEFD1F-887F-4058-BD73-7622599293C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "84_LINQ_GROUP_DESC", "83_LINQ_GROUP_DESC\84_LINQ_GROUP_DESC.csproj", "{C9EEFD1F-887F-4058-BD73-7622599293C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "84_Delegate", "84_Delegate\84_Delegate.csproj", "{73083AC7-0944-4BD9-90CC-3D2D19D648A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "85_Delegate", "84_Delegate\85_Delegate.csproj", "{73083AC7-0944-4BD9-90CC-3D2D19D648A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "84_Delegate_01", "84_Delegate_01\84_Delegate_01.csproj", "{6EAEB91E-B62D-4DBD-A57F-ADE2709E84F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "85_Delegate_01", "84_Delegate_01\85_Delegate_01.csproj", "{6EAEB91E-B62D-4DBD-A57F-ADE2709E84F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "85_Anonymous_Method", "85_Anonymous_Method\85_Anonymous_Method.csproj", "{22D5987A-B19A-46B8-AADE-A88A904F6DFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "86_Anonymous_Method", "85_Anonymous_Method\86_Anonymous_Method.csproj", "{22D5987A-B19A-46B8-AADE-A88A904F6DFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "85_Anonymous_Method_01", "85_Anonymous_Method_01\85_Anonymous_Method_01.csproj", "{ED79B9D3-7556-4F99-982D-DC9DE7F5A1E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "86_Anonymous_Method_01", "85_Anonymous_Method_01\86_Anonymous_Method_01.csproj", "{ED79B9D3-7556-4F99-982D-DC9DE7F5A1E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "86_Lambda", "86_Lambda\86_Lambda.csproj", "{641CC678-6FD0-4F55-8C2E-DEFA9418BD74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "87_Lambda", "86_Lambda\87_Lambda.csproj", "{641CC678-6FD0-4F55-8C2E-DEFA9418BD74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "86_Lambda_01", "86_Lambda_01\86_Lambda_01.csproj", "{5322C047-ADFE-45E9-8168-96873B652594}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "87_Lambda_01", "86_Lambda_01\87_Lambda_01.csproj", "{5322C047-ADFE-45E9-8168-96873B652594}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "60_Polymorphism_CoffeeShop", "60_Polymorphism_CoffeeShop\60_Polymorphism_CoffeeShop.csproj", "{C456A766-3803-4FB7-879E-A909009A205E}"
 EndProject
