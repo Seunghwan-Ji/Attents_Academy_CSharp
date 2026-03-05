@@ -1,4 +1,4 @@
-﻿namespace _58_Polymorphism_CoffeeShop
+﻿namespace _60_Polymorphism_CoffeeShop
 {
     // 다형성(Polymorphism)
     // 개발자가 되었습니다.
@@ -12,7 +12,11 @@
     // Cashier(주문받는다, 돈계산, 음료요청), Barista(음료만든다), Guest(음료주문, 돈을 지불)
 
 
-    class Drink
+    // 추상메소드를 하나라도 가지고 있는 클래스를 추상클래스라고 합니다.
+    // 추상클래스는 자신의 객체를 만들 수 없습니다.
+    // 대신에 자신에게서 상속받은 자식클래스는 자신의 추상메소드를 반드시
+    // 구현하도록 강제할 수 있습니다.
+    abstract class Drink
     {
 
         private string _name;
@@ -24,10 +28,7 @@
             _name = "음료";
         }
 
-        public virtual void MakeADrink() // 일반메소드 -> 가상메소드
-        {
-            Console.WriteLine($"음료를 만듭니다.");
-        }
+        public abstract void MakeADrink(); // 추상메소드 (구현부가 없음)
 
     }
 
@@ -42,7 +43,7 @@
             _name = "커피";
         }
 
-        public override void MakeADrink() // 부모의 가상메소드를 자식이 재정의하는 것을 overrice(오버라이드)
+        public override void MakeADrink() // 부모의 가상메소드를 자식이 재정의하는 것을 override(오버라이드)
         {
             Console.WriteLine($"커피를 만듭니다.");
         }
@@ -119,6 +120,22 @@
         }
     }
 
+    class Americano : Drink
+    {
+        private string _name;
+        public override string Name { get => _name; }
+
+        public Americano()
+        {
+            _name = "아메리카노";
+        }
+
+        public override void MakeADrink()
+        {
+            Console.WriteLine($"아메리카노를 만듭니다.");
+        }
+    }
+
 
 
     class Barista
@@ -131,7 +148,7 @@
 
     class Cashier
     {
-        private Barista _bari;  // 포함, agreggation(참조)
+        private Barista _bari;  // 포함, aggregation(참조)
 
         public Cashier(Barista bari)
         {
@@ -160,6 +177,8 @@
     {
         static void Main(string[] args)
         {
+            //Drink drink = new Drink(); // 추상클래스는 객체를 생성할 수 없습니다.
+
             Barista bari = new Barista();
             Cashier cashier = new Cashier(bari);
             Guest guest = new Guest();
@@ -171,13 +190,9 @@
             guest.OrderingDrink(cashier, new Tea());
             Console.WriteLine();
             guest.OrderingDrink(cashier, new Cidar());
+            Console.WriteLine();
+            guest.OrderingDrink(cashier, new Americano());
 
         }
     }
 }
-
-
-
-
-
-

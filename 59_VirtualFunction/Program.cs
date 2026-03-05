@@ -1,4 +1,4 @@
-﻿namespace _202602241544_VirtualFunction
+﻿namespace _59_VirtualFunction
 {
     class Parent
     {
@@ -72,9 +72,6 @@
             // 프로그램 실행중에 어느 타입의 가상함수가 호출 될지 결정이됩니다.
             // 실행중에 바인딩이 결정나는 것을 동적바인딩
             value.VirtualPrint(); // 동적바인딩
-
-            value._vptr[0]();
-
         }
 
         // 가상 메소드 호출
@@ -100,8 +97,6 @@
             CallVirtualPrint(parent);
             CallVirtualPrint(child);
             CallVirtualPrint(child2);
-
-
         }
     }
 }
