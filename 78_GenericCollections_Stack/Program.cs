@@ -1,0 +1,42 @@
+﻿using System.Collections.Generic;
+
+namespace _78_GenericCollections_Stack
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Stack<string> stack = new Stack<string>();
+
+            stack.Push("Start");
+
+            for (int i = 0; i < 10; i++)
+            {
+                stack.Push($"Data {i}");
+            }
+
+            Console.WriteLine();
+            Console.WriteLine($"Peek {stack.Peek()}");
+            Console.WriteLine();
+
+            foreach (var data in stack)
+            {
+                Console.WriteLine(data);
+            }
+
+            Console.WriteLine();
+
+            while (stack.Count > 0)
+            {
+                Console.WriteLine($"{stack.Pop()}");
+            }
+
+            foreach (var data in stack)
+            {
+                Console.WriteLine(data);
+            }
+
+            Console.WriteLine();
+        }
+    }
+}
