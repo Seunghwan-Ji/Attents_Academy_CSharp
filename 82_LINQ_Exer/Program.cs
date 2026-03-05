@@ -29,7 +29,10 @@ namespace _82_LINQ_Exer
                            orderby score descending
                            select score;
 
-            Console.WriteLine(ScoreQuery);
+            foreach (var score in ScoreQuery)
+            {
+                Console.Write($"{score}, ");
+            }
         }
     }
 }

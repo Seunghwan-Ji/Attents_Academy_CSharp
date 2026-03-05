@@ -57,21 +57,29 @@
                 }
             });
 
-
+            Console.WriteLine("숫자 출력");
+            foreach (var number in numbers)
+            {
+                Console.Write($"{number}, ");
+            }
 
             Fruit[] fruits = new Fruit[]
-             {
-            new Fruit{ Name = "apple", Count = 100, brix  = 9.2f},
-            new Fruit{ Name = "banana", Count = 200, brix = 7.2f },
-            new Fruit{ Name = "pineapple", Count = 300, brix = 5.6f },
-            new Fruit{ Name = "apple", Count = 150, brix = 4.5f},
-            new Fruit{ Name = "strawberry", Count = 400, brix = 4.5f },
-            new Fruit{ Name = "mango", Count = 500, brix = 3.6f },
-            new Fruit{ Name = "applemango", Count = 80, brix = 9.2f }
+            {
+                new Fruit{ Name = "apple", Count = 100, brix  = 9.2f},
+                new Fruit{ Name = "banana", Count = 200, brix = 7.2f },
+                new Fruit{ Name = "pineapple", Count = 300, brix = 5.6f },
+                new Fruit{ Name = "apple", Count = 150, brix = 4.5f},
+                new Fruit{ Name = "strawberry", Count = 400, brix = 4.5f },
+                new Fruit{ Name = "mango", Count = 500, brix = 3.6f },
+                new Fruit{ Name = "applemango", Count = 80, brix = 9.2f }
             };
 
 
             // 문제 2. fruits를  Count멤버를 기준으로 오름차순으로 sorting 해서 출력해보세요..
+            
+            Console.WriteLine();
+            Console.WriteLine();
+
             BubbleSort<Fruit>(fruits, delegate (Fruit a, Fruit b)
             {
                 if (a.Count > b.Count)
@@ -88,6 +96,12 @@
                 }
             });
 
+            Console.WriteLine("과일 출력");
+
+            foreach (var fruit in fruits)
+            {
+                Console.WriteLine($"Name: {fruit.Name}, Count: {fruit.Count}, brix: {fruit.brix}");
+            }
 
         }
     }

@@ -237,7 +237,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "66_Generic_Method_Exer", "6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "67_GenericProgramming", "67_GenericProgramming\67_GenericProgramming.csproj", "{32AC9929-F879-4CBF-9B3D-A9C179B1B3C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "68_Generi_Class_Exer", "68_Generi_Class_Exer\68_Generi_Class_Exer.csproj", "{6E9AA539-3C6B-4639-83CB-0B8BE516B584}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "68_Generic_Class_Exer", "68_Generi_Class_Exer\68_Generic_Class_Exer.csproj", "{6E9AA539-3C6B-4639-83CB-0B8BE516B584}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "69_Collections_HashTable", "69_Collections_HashTable\69_Collections_HashTable.csproj", "{72A28D30-C5A1-461E-A040-FAB9DBA55BC1}"
 EndProject
